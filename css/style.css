@@ -82,15 +82,18 @@ table {
     display: flex;
     justify-content: space-between;  
 }
-.header-logo  a{
+.header-logo  a,.header-logo img{
     height: 50px;
     width: 210px;
     display: block;
-    background-image: url(/images/logo.png);
+    /*background-image: url(/images/logo.png);*/
     text-indent: 101%;
     white-space: nowrap;
     overflow: hidden;
 }
+
+
+
 
 .meun > li{
     float: left;
